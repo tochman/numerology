@@ -18,6 +18,7 @@
         "-u", "bdd-lazy-var/global",
         "--recursive",
         "--exit",
+        "--color",
         "${workspaceFolder}/spec/**/*.spec.js"
       ]
     }

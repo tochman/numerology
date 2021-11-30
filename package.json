@@ -9,6 +9,6 @@
     "mocha": "^9.1.3"
   },
   "scripts": {
-    "test": "mocha --file spec/specHelper.js -u bdd-lazy-var/global --recursive --exit spec"
+    "test": "mocha --file spec/specHelper.js -u bdd-lazy-var/global --recursive --exit spec/**/*.spec.js"
   }
 }
